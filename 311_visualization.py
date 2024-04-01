@@ -36,7 +36,7 @@ def display_data(cleaned_data, from_date, to_date, grime):
 
     st.write("Cleaned Data and Number of Grimes per Grime Type")
     col1, col2 = st.columns(2)
-    col1.dataframe(cleaned_data)
+    col1.dataframe(cleaned_data) 
     col2.bar_chart(cleaned_data['Description'].value_counts(), height=500)
 
     # A function to display a line chart of the percent of each grime to all grimes per month
