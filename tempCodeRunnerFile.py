@@ -1,14 +1,8 @@
-
-# Set to store unique SR types
-sr_types = set()
+sr_types = []
 
 with open('311_CSR_2021.csv') as file:
     csv_reader = csv.reader(file)
     for line in csv_reader:
         sr_type = line[5]  # Accessing the SRType column (index 5)
-        sr_types.add(sr_type)
-
-# Print the total number of unique SR types
-total_sr_types = len(sr_types)
-print(sr_type)
-print(f"Total number of SR types: {total_sr_types}")
+        sr_types.append(sr_type)
+        print(sr_type)
