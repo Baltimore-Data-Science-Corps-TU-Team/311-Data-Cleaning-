@@ -1,21 +1,15 @@
-# import pandas as pd
-# import csv
-
-# # df = pd.read.csv('311_CSR_2021.csv')
-# with open ('311_CSR_2021.csv', 'r') as csv_file:
-#     csv_reader = csv.reader(csv_file)
-
-#     print()
-#     for line in csv_reader:
-#         print(line[5])
 import pandas as pd
 import csv
 
-# Function to return a cleaned version of the data
-def clean_data():
 
-    # Function to load the data
-    def load_data():
+# Below are 3 functions with the description of each starting with #### 
+# and ending with a row of #########################
+
+# Function to return a cleaned version of the data
+#def clean_data():
+   
+     # Function to load the data
+   # def load_data():
         # Features : Expected Types  
         #0 'X' : float, 
         #1 'Y' : float, 
@@ -44,120 +38,67 @@ def clean_data():
         #24 'GeoLocation': string
 
 
-        df = pd.read_csv("311_CSR_2021.csv.csv")
-        return df
+#### Prints total lines for csv ####
 
-    # Function to focus on the columns of interest
-    def focused_data(df):
-        focused_data = df.iloc[0:,[4,6,8,10,11,12,18,19,21]]
-        return focused_data
+# Initialize count
+# count = 0  
 
-    # Function to clean the 'Weapon' column
-    def clean_weapon_column(data):
-        # Fill NaN values with 'No weapon'
-        cleaned_data = data.fillna('No weapon')
-        return cleaned_data
+# with open('311_CSR_2021.csv') as file:
+#     csv_reader = csv.reader(file)
+#     for line in csv_reader:
 
-    # Function to clean the 'Gender' column
-    def clean_gender_column(data):
-        # Get unique values in the 'Gender' column
-        unique_values = ['B', 'Transgende', 'N', ',', 'FB', 'O', '160', 'FW', 'FU', 'D', '60', '120', '8', 'MB', 'A', '77', '17', 'FF', '165', 'FM', '042819', 'S', 'T', '50']
-        
-        # Create a dictionary to map unique values to 'U' except for 'M' and 'F'
-        replace_dict = {value: 'U' for value in unique_values if value not in ['Male', 'Female', 'W', 'M\\']}
-        
-        # Replace 'Male' with 'M', 'Female' with 'F', 'W' with 'F', and 'M\' with 'M'
-        replace_dict['Male'] = 'M'
-        replace_dict['Female'] = 'F'
-        replace_dict['W'] = 'F'
-        replace_dict['M\\'] = 'M'
+#         # Increment count for each iteration
+#         count += 1       
 
-        # Replace the values with the dictionary
-        cleaned_data = data.replace(replace_dict)
+#         # Print the 6th element and count  
+#         print(f"Line {count}: {line[5]}")   
 
-        # Fill NaN values with 'U'
-        cleaned_data = cleaned_data.fillna('U')
+#         # Print the total count after the loop
+#         print(f"Total lines: {count}")  
 
-        return cleaned_data
+#########################
 
-    # Function to clean the 'Age' column
-    def clean_age_column(data):
-        # Custom function to convert values to integers and handle 'U' values
-        def convert_to_int(value):
-            try:
-                return int(value)
-            except (ValueError, TypeError):
-                return 'U'
-            
-        # Replace numbers 0 and below + numbers 115 and over with 'U'
-        cleaned_data = data.apply(lambda x: 'U' if x <= 0 or x >= 115 else x)
 
-        # Fill NaN values with 'U'
-        cleaned_data = cleaned_data.fillna('U')
-            
-        # Apply the custom function to the 'Age' column
-        cleaned_data = cleaned_data.apply(convert_to_int)
+#### List all SR types ####
 
-        return cleaned_data
+# sr_types = []
 
-    # Function to clean the 'Race' column
-    def clean_race_column(data):
-        # Fill NaN values with 'UNKNOWN'
-        cleaned_data = data.fillna('UNKNOWN')
-        return cleaned_data
+# with open('311_CSR_2021.csv') as file:
+#     csv_reader = csv.reader(file)
+#     for line in csv_reader:
+#         sr_type = line[5]  # Accessing the SRType column (index 5)
+#         sr_types.append(sr_type)
+#         print(sr_type)
 
-    # Function to clean the 'PremiseType' column
-    def clean_premise_type_column(data):
-        # Fill NaN values with 'UNKNOWN'
-        cleaned_data = data.fillna('UNKNOWN')
-        return cleaned_data
+#  # Print the total number of SR types
+# total_sr_types = len(sr_types)
+# print(f"Total number of SR types: {total_sr_types}")
 
-    # Load the data
-    df = load_data()
-    data = focused_data(df)
+# with open('311_CSR_2021.csv') as file:
+#      csv_reader = csv.reader(file)
+#      for line in csv_reader:
+#          sr_type = line[5]  # Accessing the SRType column (index 5)
+#          print(sr_type)
 
-    # Clean the 'Weapon' column
-    cleaned_weapon_column = clean_weapon_column(data['Weapon'])
-    # Clean the 'Gender' column
-    cleaned_gender_column = clean_gender_column(data['Gender'])
-    # Clean the 'Age' column
-    cleaned_age_column = clean_age_column(data['Age'])
-    # Clean the 'Race' column
-    cleaned_race_column = clean_race_column(data['Race'])
-    # Clean the 'PremiseType' column
-    cleaned_premise_type_column = clean_premise_type_column(data['PremiseType'])
+#########################
 
-    # Create a new DataFrame with the cleaned columns
-    cleaned_data = pd.DataFrame({
-        'CrimeDateTime': data['CrimeDateTime'],
-        'Description': data['Description'],
-        'Weapon': cleaned_weapon_column, 
-        'Gender': cleaned_gender_column, 
-        'Age': cleaned_age_column,
-        'Race': cleaned_race_column,
-        'Longitude': data['Longitude'],
-        'Latitude': data['Latitude'],
-        'PremiseType': cleaned_premise_type_column
-        })
-    
-    def delete_invalid_location_rows(data):
-        # delete rows with NaN values in the 'Longitude' and 'Latitude' column
-        cleaned_data = data.dropna(subset=['Longitude', 'Latitude'])
-        # delete rows with 0 values in the 'Longitude' and 'Latitude' column
-        cleaned_data = cleaned_data[cleaned_data['Longitude'] != 0]
-        cleaned_data = cleaned_data[cleaned_data['Latitude'] != 0]
-        return cleaned_data
-    
-    def combine_similar_descriptions(data):
-        # change 'LARCENY FROM AUTO' to 'LARCENY'
-        cleaned_data = data.replace('LARCENY FROM AUTO', 'LARCENY')
-        # change 'ROBBERY - CARJACKING' to 'ROBBERY'
-        cleaned_data = cleaned_data.replace('ROBBERY - CARJACKING', 'ROBBERY')
-        # change 'ROBBERY - COMMERCIAL' to 'ROBBERY'
-        cleaned_data = cleaned_data.replace('ROBBERY - COMMERCIAL', 'ROBBERY')
-        return cleaned_data
-    
-    cleaned_data = delete_invalid_location_rows(cleaned_data)
-    cleaned_data = combine_similar_descriptions(cleaned_data)
 
-    return cleaned_data
+#### Total number of unique SRTypes ####
+
+# Set to store unique SR types
+# sr_types = set()
+
+# with open('311_CSR_2021.csv') as file:
+#     csv_reader = csv.reader(file)
+#     for line in csv_reader:
+#         sr_type = line[5]  # Accessing the SRType column (index 5)
+#         sr_types.add(sr_type)
+
+# # Print the total number of unique SR types
+# total_sr_types = len(sr_types)
+# print(sr_type)
+# print(f"Total number of SR types: {total_sr_types}")
+
+#########################    
+
+   
