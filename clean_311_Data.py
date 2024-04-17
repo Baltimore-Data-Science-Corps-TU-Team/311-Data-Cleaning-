@@ -1,8 +1,7 @@
 import pandas as pd
+import os
 import csv
 
-# Below are 3 functions with the description of each starting with #### 
-# and ending with a row of #########################
 
 # Function to return a cleaned version of the data
 #def clean_data():
@@ -38,7 +37,45 @@ import csv
 
 
 
+# # Group by category and export into seperate files
+
+# # Load data from CSV into DataFrame
+# df = pd.read_csv('CategorySRType.csv')
+
+# # Group by 'Category' column
+# grouped = df.groupby('Category')
+
+# # Iterate over each group and write it to a separate file
+# for category, group_df in grouped:
+#     # Define the output file name based on the category
+#     output_file = f"{category.replace(' ', '_')}_data.csv"
+    
+#     # Write the group to a CSV file
+#     group_df.to_csv(output_file, index=False)
+
+#     print(f"Data for '{category}' written to '{output_file}'")
+##################################################################
 
 
+#Group by categories and exportin into one file
 
-   
+# Load data from CSV into DataFrame
+df = pd.read_csv('CategorySRType.csv')
+
+# Group by 'Category' column
+grouped = df.groupby('Category')
+
+# Create an empty list to store data frames for each category
+dfs = []
+
+# Iterate over each group and append it to the list
+for category, group_df in grouped:
+    dfs.append(group_df)
+
+# Concatenate all data frames into one
+result = pd.concat(dfs)
+
+# Write the concatenated data to a single CSV file
+result.to_csv('grouped_data_by_category.csv', index=False)
+
+print("Data grouped by category written to 'grouped_data_by_category.csv'")

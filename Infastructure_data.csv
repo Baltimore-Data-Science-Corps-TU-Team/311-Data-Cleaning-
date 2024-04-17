@@ -1,0 +1,163 @@
+Category,SRType
+Infastructure,"      - WW-Surface Repair TRM-Curb Repair
+Infastructure,        - TRM-Street and Crosswalk Markings
+Infastructure,        - TRM-Steel Plate Complaint
+Infastructure,        - RP-Street Lighting Repairs
+Infastructure,        - BGE-Manhole Work
+Infastructure,        - PABC-Driveway Signage Request
+Infastructure,        - SW-Mechanical Alley Sweeping
+Infastructure,        - RP-Grass Cutting
+Infastructure,        - TRM-Footways Repair
+Infastructure,        - TRM-Street Repairs
+Infastructure,        - TRM-Potholes
+Infastructure,        - TRM-Sign Damaged/Sign Structure
+Infastructure,        - TRM-StLight Damaged/Knocked Down/Rusted
+Infastructure,        - TRM-Illegal Sign Removal
+Infastructure,        - TRM-Street Light Out
+Infastructure,        - TRM-Guardrail Concern (Repair)
+Infastructure,        - TRM-StLight Pole Access Cover/Plate Missing
+Infastructure,       - TRM-StLight Pole Missing
+Infastructure,        - TRM-Fence Concern (Repair)
+Infastructure,        - TRM-Steel Plate Repair
+Infastructure,        - TRM-StLight Pole Pickup
+Infastructure,        - TRM-Debris In Roadway
+Infastructure,        - TRM-Street Cut Notification
+Infastructure,        - WW-Water Meter Leak
+Infastructure,        - WW-Hydrant Open
+Infastructure,        - WW-Sewer Water In Basement
+Infastructure,        - WW-Sewer Overflow
+Infastructure,        - WW-Water Leak (Exterior)
+Infastructure,        - WW-Water No Water
+Infastructure,        - WW-Water Low Pressure
+Infastructure,        - WW-Water Discolored
+Infastructure,        - WW-Water Odor/Bad Taste
+Infastructure,        - WW-Storm Damaged Inlet
+Infastructure,        - WW-Storm Flooded Street
+Infastructure,        - WW-Water Noise In Pipe
+Infastructure,       - WW-Waterway Pollution Investigation
+Infastructure,        - WW-Hydrant Leaking
+Infastructure,        - BGE-StLight(s) Out
+Infastructure,        - BGE-StLighting Cable Faults
+Infastructure,        - BGE-StLight(s) Out Rear
+Infastructure,        - BGE-Construction/New Development
+Infastructure,       - HCD-CCE Demolition
+Infastructure,        - TEC-Street Repair (Misc)
+Infastructure,        - TEC-Footways Contract/Reconstruction
+Infastructure,        - TEC-Alley Contract/Reconstruction
+Infastructure,       - TRC-Conduit Repair
+Infastructure,        - TRC-Conduit Restoration
+Infastructure,        - TRM-Bridge Concern
+Infastructure,        - TRM-(ADA) Sidewalk Ramp Concern (Repair)
+Infastructure,        - TRT-Signal Timing
+Infastructure,        - TRT-Crosswalks
+Infastructure,        - TRT-New Traffic Signal
+Infastructure,        - TRT-Traffic Signal Repairs
+Infastructure,        - TRT-Traffic Calming
+Infastructure,       - TRT-Traffic Sign Request
+Infastructure,        - TTR-Vehicle Relocation
+Infastructure,        - TTR-Abandoned Vehicle Turn-in Program
+Infastructure,        - TTR-Vehicle Removal
+Infastructure,        - TTR-Parking Away Notification
+Infastructure,        - TTR-48 Hour Parking/Abandoned Vehicle
+Infastructure,       - RP-Custodial Services
+Infastructure,        - RP-Park Maintenance
+Infastructure,       - RP-Building Maintenance
+Infastructure,        - PABC-Driveway Signage Request
+Infastructure,        - PABC-Parking Regulation Review
+Infastructure,        - PABC-Electric Vehicle Charging Station Request
+Infastructure,        - SW-Sandbag Pick Up
+Infastructure,        - SW-Municipal Trash Can Concern
+Infastructure,        - SW-City Trash Can or Recycling Cart Concern
+Infastructure,        - SW-City Trash Can or Recycling Cart Lost or Stolen
+Infastructure,        - SW-Public (Corner) Trash Can Issue
+Infastructure,       - SW-Dirty Alley Proactive
+Infastructure,        - SW-Mixed Refuse
+Infastructure,       - SW-Dumpster Collection
+Infastructure,        - SW-Fire Debris Removal
+Infastructure,        - SW-Dirty Street
+Infastructure,        - SW-Dirty Street Proactive
+Infastructure,        - SW-Dirty Alley
+Infastructure,        - SW-Leaf Collection Scheduling
+Infastructure,        - SW-Leaf Removal
+Infastructure,        - SW-Water Way Cleaning
+Infastructure,        - SW-Mechanical Alley Sweeping
+Infastructure,        - SW-Mechanical Street Sweeping
+Infastructure,        - SW-SIU Clean Up
+Infastructure,        - TEC-Street Repair (Misc)
+Infastructure,        - TRM-Street Repairs
+Infastructure,        - TRM-Snow/Icy Conditions
+Infastructure,        - TRM-Potholes
+Infastructure,        - TRM-Pickup Pothole
+Infastructure,       - TRM-Street Cut Notification
+Infastructure,       - TRM-Street and Crosswalk Markings
+Infastructure,       - TRM-Sign Damaged/Sign Structure
+Infastructure,        - TRM-Steel Plate Repair
+Infastructure,       - TRM-Steel Plate Complaint
+Infastructure,      - TRM-StLight Pole Access Cover/Plate Missing
+Infastructure,      - TRM-StLight Pole Missing
+Infastructure,       - TRM-StLight Damaged/Knocked Down/Rusted
+Infastructure,        - TRM-StLighting Inadequate/Too Bright
+Infastructure,        - TRM-StLighting Cable Faults
+Infastructure,        - TRM-Debris Hanging From Wires or Poles
+Infastructure,        - TRM-Conduit Repair
+Infastructure,        - TRM-Conduit Restoration
+Infastructure,        - TEC-Footways Contract/Reconstruction
+Infastructure,        - TEC-Footways Complaint
+Infastructure,        - TEC-Alley Contract/Reconstruction
+Infastructure,        - TEC-Alley Reconstruction Complaint
+Infastructure,        - TRT-Crosswalks
+Infastructure,        - TRT-New Traffic Sign
+Infastructure,        - TRT-Signal Timing
+Infastructure,        - TRT-Traffic Calming
+Infastructure,        - TRT-Traffic Signal Repairs
+Infastructure,        - WW-Water Leak (Exterior)
+Infastructure,        - WW-Sewer Overflow
+Infastructure,        - WW-Sewer Water In Basement
+Infastructure,        - WW-Water No Water
+Infastructure,        - WW-Water Low Pressure
+Infastructure,        - WW-Waterway Pollution Investigation
+Infastructure,        - WW-Water Odor/Bad Taste
+Infastructure,        - WW-Hydrant Leaking
+Infastructure,        - WW-Hydrant Damaged
+Infastructure,       - WW-Storm Damaged Inlet
+Infastructure,        - WW-Storm Flooded Street
+Infastructure,        - WW-Sediment or Erosion Problem
+Infastructure,        - WW-Water Noise In Pipe
+Infastructure,        - RP-Park Maintenance
+Infastructure,        - RP-Building Maintenance
+Infastructure,        - RP-Custodial Services
+Infastructure,        - TRS-Parking Away Notification
+Infastructure,        - TTR-Abandoned Vehicle Turn-in Program
+Infastructure,        - TTR-Vehicle Relocation
+Infastructure,        - TTR-Vehicle Removal
+Infastructure,        - BGE-Construction/New Development
+Infastructure,        - BGE-StLighting Cable Faults
+Infastructure,        - BGE-StLighting Out
+Infastructure,        - BGE-StLighting Pole Installation
+Infastructure,        - BGE-StLighting Pole Pickup
+Infastructure,        - BGE-StLighting Pole Missing
+Infastructure,        - BGE-StLighting Pole Repair
+Infastructure,        - BGE-StLighting Pole Out Rear
+Infastructure,        - BGE-Manhole Work
+Infastructure,        - BGE-Red Tag
+Infastructure,        - BGE-Electric Vehicle Charging Station Request
+Infastructure,        - BGE-Construction/New Development
+Infastructure,        - FOR-Tree Inspection
+Infastructure,       - FOR-Down Tree
+Infastructure,        - FOR-Fallen Limb
+Infastructure,        - FOR-Broken Branch in Tree
+Infastructure,        - FIR-Fire Code Violation
+Infastructure,        - HCD-Vacant Building
+Infastructure,        - HCD-Maintenance Structure
+Infastructure,        - HCD-CCE Building Inspections
+Infastructure,        - HCD-CCE Demolition
+Infastructure,        - HCD-Illegal Flyers
+Infastructure,        - HCD-Illegal Signs on Public Property
+Infastructure,        - HCD-Sanitation Property
+Infastructure,        - HCD-Abandoned Vehicle
+Infastructure,        - HCD-Animals
+Infastructure,       - HCD-Bed Bugs
+Infastructure,        - HCD-Fire Protection
+Infastructure,        - HCD-Insects
+Infastructure,        - HCD-Rodents
+Infastructure,       - HCD-Snow and Ice on Sidewalks"

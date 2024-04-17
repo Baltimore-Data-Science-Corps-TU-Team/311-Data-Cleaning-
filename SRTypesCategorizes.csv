@@ -1,0 +1,481 @@
+Breakdown of the service requests into the subcategories provided:
+
+
+
+Waste:
+    - Waste Management: 28
+        - SW-Trash Can/Recycling Container Complaint
+        - SW-Public (Corner) Trash Can Request/Removal
+        - SW-Mechanical Street Sweeping
+        - SW-Mechanical Alley Sweeping
+        - SW-Rat Rubout Follow-up
+        - SW-Rat Rubout Alley Concern
+        - SW-Rat Rubout Proactive
+        - SW-Rat Rubout
+        - SW-SIU Clean Up 
+        - SW-SIU Clean Up
+        - SW-Bulk Special
+        - SW-Fire Debris Removal
+        - SW-Dumpster Collection
+        - SW-RP Bulk Pickup
+        - SW-Bulk Scheduled-Saturday
+        - SW-Bulk Scheduled
+        - SW-Bulk Scheduled
+        - SW-Recycling
+        - SW-Leaf Collection Scheduling
+        - SW-Leaf Removal
+        - SW-Graffiti Removal-Owner's Request
+        - SW-Graffiti Removal Proactive
+        - SW-Graffiti Removal
+        - SW-City Trash Can or Recycling Cart Concern
+        - SW-City Trash Can or Recycling Cart Lost or Stolen
+        - SW-City Trash Can or Recycling Cart Lost or Stolen
+        - SW-City Trash Can or Recycling Cart Concern
+        - SW-Bag Pickup
+
+    - Illegal Dumping: 1
+        - HCD-Illegal Dumping
+
+    - Hazardous Waste: 12
+        - WW-Waterway Pollution Investigation
+        - WW-Sediment or Erosion Problem
+        - WW-Water Odor/Bad Taste
+        - WW-Hydrant Damaged
+        - WW-Sewer Overflow
+        - WW-Sewer Water In Basement
+        - WW-Water Leak (Exterior)
+        - WW-Storm Damaged Inlet
+        - WW-Storm Flooded Street
+        - WW-Water No Water
+        - WW-Hydrant Leaking
+        - WW-Water Low Pressure
+
+    - Litter: 6
+        - SW-Dirty Alley
+        - SW-Dirty Street
+        - SW-Dirty Street Proactive
+        - SW-Mixed Refuse
+        - TRM-Debris Hanging From Wires or Poles
+        - TRM-Debris In Roadway
+
+    - White Goods: 1
+        - SW-Appliance
+
+Vehicles:
+Parking: 37
+        - TRS-Parking Away Notification
+        - TRS-Parking Complaint
+        - TRS-48 Hour Parking/Abandoned Vehicle
+        - TRT-Crosswalks
+        - TRT-New Traffic Sign
+        - TRT-Signal Timing
+        - TRT-Traffic Calming
+        - TRT-Traffic Signal Repairs
+        - TRM-Illegal Sign Removal
+        - TRM-(ADA) Sidewalk Ramp Concern (Repair)
+        - TRM-Bridge Concern
+        - TRM-Curb Repair
+        - TRM-Footways Repair
+        - TRM-Street Repairs
+        - TRM-Steel Plate Repair
+        - TRM-Street and Crosswalk Markings
+        - TRM-Guardrail Concern (Repair)
+        - TRM-Sign Damaged/Sign Structure
+        - TRM-StLight Pole Access Cover/Plate Missing
+        - TRM-StLight Pole Missing
+        - TRM-StLight Damaged/Knocked Down/Rusted
+        - TRM-StLighting Inadequate/Too Bright
+        - TRM-StLighting Cable Faults
+        - TRM-Pickup Pothole
+        - TRM-Potholes
+        - TRM-Snow/Icy Conditions
+        - TRM-Street Cut Notification
+        - TRM-WO Sign Installation
+        - TRM-WO Sign Removal
+        - TRM-Steel Plate Complaint
+        - TRM-Street Lighting Repairs
+        - TRM-Sandbag Pick Up
+        - TRM-StLight Pole Pickup
+        - TRM-Debris In Roadway
+        - TRM-Conduit Repair
+        - TRM-Conduit Restoration
+        - TRM-Street Cut Notification
+
+    - Abandoned Vehicles: 3
+        - TTR-Abandoned Vehicle Turn-in Program
+        - TTR-Vehicle Relocation
+        - TTR-Vehicle Removal
+
+    - Traffic Violations: 6
+        - PABC-Pay by License Plate Meter Complaints
+        - PABC-Parking Regulation Review
+        - PABC-Electric Vehicle Charging Station Request
+        - PABC-Single Space Meter Complaints
+        - PABC-Driveway Signage Request
+        - PABC-Parking Investigations
+
+
+Infrastructure:
+    - Street Maintenance: 18
+        - TEC-Street Repair (Misc)
+        - TRM-Street Repairs
+        - TRM-Snow/Icy Conditions
+        - TRM-Potholes
+        - TRM-Pickup Pothole
+        - TRM-Street Cut Notification
+        - TRM-Street and Crosswalk Markings
+        - TRM-Sign Damaged/Sign Structure
+        - TRM-Steel Plate Repair
+        - TRM-Steel Plate Complaint
+        - TRM-StLight Pole Access Cover/Plate Missing
+        - TRM-StLight Pole Missing
+        - TRM-StLight Damaged/Knocked Down/Rusted
+        - TRM-StLighting Inadequate/Too Bright
+        - TRM-StLighting Cable Faults
+        - TRM-Debris Hanging From Wires or Poles
+        - TRM-Conduit Repair
+        - TRM-Conduit Restoration
+
+    - Sidewalk and Footway Maintenance: 4
+        - TEC-Footways Contract/Reconstruction
+        - TEC-Footways Complaint
+        - TEC-Alley Contract/Reconstruction
+        - TEC-Alley Reconstruction Complaint
+
+    - Traffic Management: 5
+        - TRT-Crosswalks
+        - TRT-New Traffic Sign
+        - TRT-Signal Timing
+        - TRT-Traffic Calming
+        - TRT-Traffic Signal Repairs
+
+    - Utility Maintenance: 13
+        - WW-Water Leak (Exterior)
+        - WW-Sewer Overflow
+        - WW-Sewer Water In Basement
+        - WW-Water No Water
+        - WW-Water Low Pressure
+        - WW-Waterway Pollution Investigation
+        - WW-Water Odor/Bad Taste
+        - WW-Hydrant Leaking
+        - WW-Hydrant Damaged
+        - WW-Storm Damaged Inlet
+        - WW-Storm Flooded Street
+        - WW-Sediment or Erosion Problem
+        - WW-Water Noise In Pipe
+
+    - Public Facilities: 3
+        - RP-Park Maintenance
+        - RP-Building Maintenance
+        - RP-Custodial Services
+
+    - Public Transportation: 4
+        - TRS-Parking Away Notification
+        - TTR-Abandoned Vehicle Turn-in Program
+        - TTR-Vehicle Relocation
+        - TTR-Vehicle Removal
+
+    - Construction and Development: 12
+        - BGE-Construction/New Development
+        - BGE-StLighting Cable Faults
+        - BGE-StLighting Out
+        - BGE-StLighting Pole Installation
+        - BGE-StLighting Pole Pickup
+        - BGE-StLighting Pole Missing
+        - BGE-StLighting Pole Repair
+        - BGE-StLighting Pole Out Rear
+        - BGE-Manhole Work
+        - BGE-Red Tag
+        - BGE-Electric Vehicle Charging Station Request
+        - BGE-Construction/New Development
+
+    - Other Infrastructure Issues: 19
+        - FOR-Tree Inspection
+        - FOR-Down Tree
+        - FOR-Fallen Limb
+        - FOR-Broken Branch in Tree
+        - FIR-Fire Code Violation
+        - HCD-Vacant Building
+        - HCD-Maintenance Structure
+        - HCD-CCE Building Inspections
+        - HCD-CCE Demolition
+        - HCD-Illegal Flyers
+        - HCD-Illegal Signs on Public Property
+        - HCD-Sanitation Property
+        - HCD-Abandoned Vehicle
+        - HCD-Animals
+        - HCD-Bed Bugs
+        - HCD-Fire Protection
+        - HCD-Insects
+        - HCD-Rodents
+        - HCD-Snow and Ice on Sidewalks
+
+Animals:
+    - Animal Control and Welfare: 24
+        - HLTH-Animal Attack Against Human
+        - HLTH-Animal Attack Against Animal
+        - HLTH-Animal Bite Pickup
+        - HLTH-Animal Domestic Animal Trap or Capture Request
+"        - HLTH-Animal Failure to Restrain Animal, Known Owner/Known Address"
+        - HLTH-Animal In Danger/Injured/Abused/Neglected
+        - HLTH-Animal Inspection/Follow-up
+        - HLTH-Animal Aggressive Animal
+        - HLTH-Animal Barking Dog
+        - HLTH-Animal Stray Held
+        - HLTH-Animal Trapped In Vacant Building
+        - HLTH-Animal Unsanitary Conditions
+        - HLTH-Animal Wildlife Complaint
+        - MOHS-Homeless Outreach
+        - SW-Rat Rubout
+        - SW-Rat Rubout Alley Concern 
+        - SW-Rat Rubout Follow-up
+        - SW-Rat Rubout Proactive
+        - SW-Dirty Alley Proactive
+        - SW-Leaf Collection Scheduling
+        - SW-Leaf Removal
+        - SW-Water Way Cleaning
+        - SW-Mechanical Alley Sweeping
+        - SW-Mechanical Street Sweeping
+
+Animal Safety: 23
+    - HLTH-Animal Police/Fire/Sheriff/City Work Crew Standby
+    - HCD-Insects
+    - HLTH-Animal Trapped In Vacant Building
+    - HLTH-Animal Attack Against Human
+    - HLTH-Animal Attack Against Animal
+    - HLTH-Animal Bite Pickup
+    - HLTH-Animal Domestic Animal Trap or Capture Request
+    - HLTH-Animal Search and Seizure
+    - SW-Rat Rubout Follow-up
+    - SW-Rat Rubout Alley Concern (SW creation only)
+"    - HLTH-Animal Failure to Restrain Animal, Known Owner/Known Address"""
+    - HCD-Animals
+    - SW-Rat Rubout Proactive
+    - SW-Rat Rubout
+    - HLTH-Animal In Danger/Injured/Abused/Neglected
+    - HCD-Rodents
+    - HLTH-Animal Dead Animal Pickup-Wildlife or Stray
+    - HLTH-Animal Wildlife Complaint
+    - HLTH-Animal Inspection/Follow-up
+    - HLTH-Animal Aggressive Animal
+    - HLTH-Animal Barking Dog
+    - HLTH-Animal Stray Held
+    - HLTH-Animal Unsanitary Conditions
+
+
+    - Pest Control: 2
+        - HCD-Insects
+        - HCD-Rodents
+
+Waste Management:
+
+    - Trash and Recycling: 34
+        - SW-Trash Can/Recycling Container Complaint
+        - SW-Public (Corner) Trash Can Request/Removal
+        - SW-Municipal Trash Can Concern
+        - SW-Recycling
+        - SW-Residential Recycling Carts
+        - SW-Bulk Scheduled
+        - SW-Bulk Scheduled-Saturday
+        - SW-Bulk Scheduled 
+        - SW-Bulk Special
+        - SW-Bag Pickup
+        - SW-Mixed Refuse
+        - SW-Dumpster Collection
+        - SW-Fire Debris Removal
+        - SW-Dirty Street
+        - SW-Dirty Street Proactive
+        - SW-Dirty Alley
+        - SW-Dirty Alley Proactive
+        - SW-Municipal Trash Can Stolen/Lost
+        - SW-City Trash Can or Recycling Cart Concern
+        - SW-City Trash Can or Recycling Cart Lost or Stolen
+        - SW-Public (Corner) Trash Can Issue
+        - SW-BCPSS Graffiti Removal
+        - SW-Graffiti Removal - Rec and Parks
+        - SW-Graffiti Removal
+        - SW-Graffiti Removal Proactive
+        - SW-Graffiti Removal-Owner's Request
+        - SW-Leaf Collection Scheduling
+        - SW-Leaf Removal
+        - SW-Water Way Cleaning
+        - SW-Mechanical Alley Sweeping
+        - SW-Mechanical Street Sweeping
+        - SW-SIU Clean Up
+        - SW-Volunteer Clean-Up Event
+        - SW-Clean Up (Mayor’s Fall Cleanup)
+
+    - Hazardous Waste: 9
+        - WW-Waterway Pollution Investigation
+        - WW-Sewer Overflow
+        - WW-Water Leak (Exterior)
+        - WW-Hydrant Leaking
+        - WW-Hydrant Damaged
+        - WW-Storm Damaged Inlet
+        - WW-Storm Flooded Street
+        - WW-Sediment or Erosion Problem
+        - WW-Water Noise In Pipe
+
+    - Environmental Cleanup: 13
+        - SW-SIU Clean Up 
+        - RP-Custodial Services
+        - RP-Park Maintenance
+        - RP-Building Maintenance
+        - WW-Waterway Pollution Investigation
+        - WW-Sewer Overflow
+        - WW-Water Leak (Exterior)
+        - WW-Hydrant Leaking
+        - WW-Hydrant Damaged
+        - WW-Storm Damaged Inlet
+        - WW-Storm Flooded Street
+        - WW-Sediment or Erosion Problem
+        - WW-Water Noise In Pipe
+
+Infrastructure:
+    - Road and Street Maintenance: 24
+        - WW-Surface Repair
+        - TRM-Curb Repair
+        - TRM-Street and Crosswalk Markings
+        - TRM-Steel Plate Complaint
+        - RP-Street Lighting Repairs
+        - BGE-Manhole Work
+        - PABC-Driveway Signage Request
+        - SW-Mechanical Alley Sweeping
+        - RP-Grass Cutting
+        - TRM-Footways Repair
+        - TRM-Street Repairs
+        - TRM-Potholes
+        - TRM-Sign Damaged/Sign Structure
+        - TRM-StLight Damaged/Knocked Down/Rusted
+        - TRM-Illegal Sign Removal
+        - TRM-Street Light Out
+        - TRM-Guardrail Concern (Repair)
+        - TRM-StLight Pole Access Cover/Plate Missing
+        - TRM-StLight Pole Missing
+        - TRM-Fence Concern (Repair)
+        - TRM-Steel Plate Repair
+        - TRM-StLight Pole Pickup
+        - TRM-Debris In Roadway
+        - TRM-Street Cut Notification
+
+    - Utility Maintenance: 17
+        - WW-Water Meter Leak
+        - WW-Hydrant Open
+        - WW-Sewer Water In Basement
+        - WW-Sewer Overflow
+        - WW-Water Leak (Exterior)
+        - WW-Water No Water
+        - WW-Water Low Pressure
+        - WW-Water Discolored
+        - WW-Water Odor/Bad Taste
+        - WW-Storm Damaged Inlet
+        - WW-Storm Flooded Street
+        - WW-Water Noise In Pipe
+        - WW-Waterway Pollution Investigation
+        - WW-Hydrant Leaking
+        - BGE-StLight(s) Out
+        - BGE-StLighting Cable Faults
+        - BGE-StLight(s) Out Rear
+
+    - Construction and Development: 9
+        - BGE-Construction/New Development
+        - HCD-CCE Demolition
+        - TEC-Street Repair (Misc)
+        - TEC-Footways Contract/Reconstruction
+        - TEC-Alley Contract/Reconstruction
+        - TRC-Conduit Repair
+        - TRC-Conduit Restoration
+        - TRM-Bridge Concern
+        - TRM-(ADA) Sidewalk Ramp Concern (Repair)
+
+    - Traffic Management: 11
+        - TRT-Signal Timing
+        - TRT-Crosswalks
+        - TRT-New Traffic Signal
+        - TRT-Traffic Signal Repairs
+        - TRT-Traffic Calming
+        - TRT-Traffic Sign Request
+        - TTR-Vehicle Relocation
+        - TTR-Abandoned Vehicle Turn-in Program
+        - TTR-Vehicle Removal
+        - TTR-Parking Away Notification
+        - TTR-48 Hour Parking/Abandoned Vehicle
+
+    - Public Facilities: 6
+        - RP-Custodial Services
+        - RP-Park Maintenance
+        - RP-Building Maintenance
+        - PABC-Driveway Signage Request
+        - PABC-Parking Regulation Review
+        - PABC-Electric Vehicle Charging Station Request
+
+    - Miscellaneous Infrastructure: 18
+        - SW-Sandbag Pick Up
+        - SW-Municipal Trash Can Concern
+        - SW-City Trash Can or Recycling Cart Concern
+        - SW-City Trash Can or Recycling Cart Lost or Stolen
+        - SW-Public (Corner) Trash Can Issue
+        - SW-Dirty Alley Proactive
+        - SW-Mixed Refuse
+        - SW-Dumpster Collection
+        - SW-Fire Debris Removal
+        - SW-Dirty Street
+        - SW-Dirty Street Proactive
+        - SW-Dirty Alley
+        - SW-Leaf Collection Scheduling
+        - SW-Leaf Removal
+        - SW-Water Way Cleaning
+        - SW-Mechanical Alley Sweeping
+        - SW-Mechanical Street Sweeping
+        - SW-SIU Clean Up
+
+Nature: 12
+    - ECC-Grass Mowing
+    - HCD-Snow and Ice on Sidewalks
+    - FOR-Tree Inspection
+    - HCD-Trees and Shrubs
+    - FOR-Down Tree
+    - FOR-Fallen Limb
+    - SW-Leaf Collection Scheduling
+    - TRM-Snow/Icy Conditions
+    - TRM-Grass Mowing
+    - FOR-Broken Branch in Tree
+    - SW-Leaf Removal
+    - WW-Sediment or Erosion Problem
+
+Vandalism: 12
+    - HCD-Graffiti
+    - RP-Graffiti Removal
+    - SW-Graffiti Removal-Owner's Request
+    - SW-Graffiti Removal Proactive
+    - SW-Graffiti Removal
+    - TRM-Graffiti Referral
+    - ECC-Graffiti Complaint
+    - TRM-Debris Hanging From Wires or Poles
+    - SW-BCPSS Graffiti Removal
+    - SW-Graffiti Removal - Rec and Parks
+    - WW-Hydrant Damaged
+    - HCD-Illegal Flyers
+
+- Pests: 4
+    - HCD-Bed Bugs
+    - HCD-Fire Protection
+    - WW-Waterway Pollution Investigation
+    - SW-SIU Clean Up (HCD USE ONLY)
+
+- Crime: 4
+    - FCCS-Personal Property Tax
+    - HLTH-EV Report of Retail Sale of Illegal Synthetic Drugs
+    - FIR-Fire Code Violation
+    - HLTH-Food Borne Illness Alleged
+
+Finance: 1
+    - FIN-City Motor Vehicle Accident
+
+Safety: 6
+    - MOHS-Homeless Outreach
+    - FCPF-Ombudsman Review
+    - HLTH-EV Waste Hauler
+    - HLTH-EV Noise
+    - HLTH-EV Odor
+    - HLTH-EV Plastic Bag Ban Violation

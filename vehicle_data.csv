@@ -1,0 +1,47 @@
+Category,SRType
+Vehicle,"        - TRS-Parking Away Notification
+Vehicle,        - TRS-Parking Complaint
+Vehicle,        - TRS-48 Hour Parking/Abandoned Vehicle
+Vehicle,        - TRT-Crosswalks
+Vehicle,        - TRT-New Traffic Sign
+Vehicle,        - TRT-Signal Timing
+Vehicle,        - TRT-Traffic Calming
+Vehicle,        - TRT-Traffic Signal Repairs
+Vehicle,        - TRM-Illegal Sign Removal
+Vehicle,        - TRM-(ADA) Sidewalk Ramp Concern (Repair)
+Vehicle,        - TRM-Bridge Concern
+Vehicle,        - TRM-Curb Repair
+Vehicle,        - TRM-Footways Repair
+Vehicle,        - TRM-Street Repairs
+Vehicle,        - TRM-Steel Plate Repair
+Vehicle,        - TRM-Street and Crosswalk Markings
+Vehicle,        - TRM-Guardrail Concern (Repair)
+Vehicle,        - TRM-Sign Damaged/Sign Structure
+Vehicle,        - TRM-StLight Pole Access Cover/Plate Missing
+Vehicle,        - TRM-StLight Pole Missing
+Vehicle,        - TRM-StLight Damaged/Knocked Down/Rusted
+Vehicle,        - TRM-StLighting Inadequate/Too Bright
+Vehicle,        - TRM-StLighting Cable Faults
+Vehicle,        - TRM-Pickup Pothole
+Vehicle,        - TRM-Potholes
+Vehicle,        - TRM-Snow/Icy Conditions
+Vehicle,        - TRM-Street Cut Notification
+Vehicle,        - TRM-WO Sign Installation
+Vehicle,        - TRM-WO Sign Removal
+Vehicle,        - TRM-Steel Plate Complaint
+Vehicle,        - TRM-Street Lighting Repairs
+Vehicle,        - TRM-Sandbag Pick Up
+Vehicle,        - TRM-StLight Pole Pickup
+Vehicle,        - TRM-Debris In Roadway
+Vehicle,        - TRM-Conduit Repair
+Vehicle,         - TRM-Conduit Restoration
+Vehicle,         - TRM-Street Cut Notification
+Vehicle,         - TTR-Abandoned Vehicle Turn-in Program
+Vehicle,         - TTR-Vehicle Relocation
+Vehicle,         - TTR-Vehicle Removal
+Vehicle,         - PABC-Pay by License Plate Meter Complaints
+Vehicle,         - PABC-Parking Regulation Review
+Vehicle,        - PABC-Electric Vehicle Charging Station Request
+Vehicle,         - PABC-Single Space Meter Complaints
+Vehicle,         - PABC-Driveway Signage Request
+Vehicle,         - PABC-Parking Investigations"

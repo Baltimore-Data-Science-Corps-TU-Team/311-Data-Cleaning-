@@ -19,4 +19,4 @@ with open('311_CSR_2021.csv') as file:
         # Print the total count after the loop
         print(f"Total lines: {count}")  
 
-#########################  Total lines: 379787
+#########################  Total lines: 379,787
