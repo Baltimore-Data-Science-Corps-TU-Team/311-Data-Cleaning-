@@ -370,6 +370,9 @@ for kind, sr_types in grouped_by_kind.items():
 # Convert the list of tuples to a DataFrame
 grouped_df = pd.DataFrame(grouped_data, columns=['Category', 'SRType'])
 
+# Remove duplicate SRType entries
+grouped_df.drop_duplicates(subset='SRType', inplace=True)
+
 # Write the grouped data to a new CSV file
 grouped_df.to_csv('grouped_311data.csv', index=False)
 print("Data grouped by category kind written to 'grouped_311data.csv'")
