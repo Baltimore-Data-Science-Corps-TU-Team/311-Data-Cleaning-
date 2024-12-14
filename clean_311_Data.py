@@ -4,7 +4,7 @@ import pandas as pd
 max_cols = 25
 
 # Read the CSV file into a DataFrame
-df = pd.read_csv('311_Customer_Service_Requests_2021.csv', skipinitialspace=True, na_values=[""], usecols=range(max_cols))
+df = pd.read_csv('311_Customer_Service_Requests.csv', skipinitialspace=True, na_values=[""], usecols=range(max_cols))
 
 # Drop rows with all NaN values to remove completely empty rows
 df.dropna(how='all', inplace=True)
@@ -349,30 +349,47 @@ strings_to_remove = ['TRM-Barricades-Install','TRC-Conduit Observation','TRA-Omb
 'SW-Park Cans', 'TR-Right-Of-Way Permit', 'FCCS-Paid Wrong Account/Misapplied Payment', 'WW-Water Turn Off (Request)', 'SW-Community Pitch-In', 'FCPF-Transfer of Liability', 
 'Parking Fines Refunds', 'Alleys', 'New Stop Sign', 'Metered Water', 'Sewer Misc Investigation', 'BCLB-Liquor License Complaint', 'PABC-Residential Parking Permit Inquiries']
 
+# Filter out rows based on strings to remove
+df = df[~df['SRType'].isin(strings_to_remove)]
 
-# Initialize a dictionary to hold SRTypes grouped by category kind
-grouped_by_kind = {kind: [] for kind in categories.keys()}
+# Read the grouped data CSV into a DataFrame
+grouped_df = pd.read_csv('grouped_311data.csv')
 
-# Iterate over the DataFrame and populate the dictionary
-for index, row in df.iterrows():
-    srtype = row['SRType']
-    for kind, kinds_sr_types in categories.items():
-        if srtype in kinds_sr_types:
-            grouped_by_kind[kind].append(srtype)
-            break
+# Merge the original DataFrame with grouped data on 'SRType' column
+merged_df = pd.merge(df, grouped_df, on='SRType', how='left')
 
-# Create a list of tuples for the grouped data
-grouped_data = []
-for kind, sr_types in grouped_by_kind.items():
-    for sr_type in sr_types:
-        grouped_data.append((kind, sr_type))
+# Write the merged data to a new CSV file
+merged_df.to_csv('merged_311data.csv', index=False)
+print("Merged data written to 'merged_311data.csv'")
 
-# Convert the list of tuples to a DataFrame
-grouped_df = pd.DataFrame(grouped_data, columns=['Category', 'SRType'])
 
-# Remove duplicate SRType entries
-grouped_df.drop_duplicates(subset='SRType', inplace=True)
 
-# Write the grouped data to a new CSV file
-grouped_df.to_csv('grouped_311data.csv', index=False)
-print("Data grouped by category kind written to 'grouped_311data.csv'")
+
+
+
+# # Initialize a dictionary to hold SRTypes grouped by category kind
+# grouped_by_kind = {kind: [] for kind in categories.keys()}
+
+# # Iterate over the DataFrame and populate the dictionary
+# for index, row in df.iterrows():
+#     srtype = row['SRType']
+#     for kind, kinds_sr_types in categories.items():
+#         if srtype in kinds_sr_types:
+#             grouped_by_kind[kind].append(srtype)
+#             break
+
+# # Create a list of tuples for the grouped data
+# grouped_data = []
+# for kind, sr_types in grouped_by_kind.items():
+#     for sr_type in sr_types:
+#         grouped_data.append((kind, sr_type))
+
+# # Convert the list of tuples to a DataFrame
+# grouped_df = pd.DataFrame(grouped_data, columns=['Category', 'SRType'])
+
+# # Remove duplicate SRType entries
+# grouped_df.drop_duplicates(subset='SRType', inplace=True)
+
+# # Write the grouped data to a new CSV file
+# grouped_df.to_csv('grouped_311data.csv', index=False)
+# print("Data grouped by category kind written to 'grouped_311data.csv'")
